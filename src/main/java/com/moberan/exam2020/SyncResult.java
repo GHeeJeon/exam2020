@@ -1,3 +1,4 @@
+//https://stackoverflow.com/questions/6847870/return-string-from-a-callback-java/46638940#46638940
 package com.moberan.exam2020;
 
 public class SyncResult {

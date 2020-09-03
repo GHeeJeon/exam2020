@@ -1,9 +1,7 @@
-//callback이 호출되어 결과가 나올 때까지 thread를 대기시킴.
 package com.moberan.exam2020;
 
 import com.moberan.exam2020.lib.Task;
 import com.moberan.exam2020.lib.TestLibrary;
-import com.moberan.exam2020.SyncResult;
 
 public class Main {
 
@@ -25,7 +23,8 @@ public class Main {
 			}
 		});
 
-		// FIXME always null.
+		//callback이 호출되어 결과가 나올 때까지 thread를 대기시킴.
+
 		return result.getResult();
 	}
 }
